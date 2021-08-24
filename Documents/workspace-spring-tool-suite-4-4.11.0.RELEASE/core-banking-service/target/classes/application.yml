@@ -1,0 +1,10 @@
+info:
+  app:
+    name: core-banking-service-api
+    version: v1
+    description: core banking service
+    
+
+spring:
+  application:
+    name: ${info.app.name}
